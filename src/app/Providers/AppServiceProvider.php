@@ -8,9 +8,7 @@ Class AppServiceProvider extends BaseServiceProvider
 {
 	public function boot()
 	{
-		$this->publishes([
-			__DIR__ . '/../../database' => database_path()
-		], 'neji0924');
+		$this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
 	}
 
 	public function register()
