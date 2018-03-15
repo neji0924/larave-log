@@ -4,5 +4,12 @@
         "psr-4": {
             "Neji0924\\Log\\": "src/app"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neji0924\\Log\\Providers\\ServiceProvider"
+            ]
+        }
     }
 }

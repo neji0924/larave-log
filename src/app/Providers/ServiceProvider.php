@@ -8,18 +8,13 @@ Class ServiceProvider extends BaseServiceProvider
 {
 	public function boot()
 	{
-		$this->publishResources();
+		$this->publishes([
+			__DIR__ . '/../../database' => database_path()
+		], 'neji0924');
 	}
 
 	public function register()
 	{
 		//
-	}
-
-	protected function publishResources()
-	{
-		$this->publishes([
-			__DIR__ . '/../../database' => database_path()
-		], 'database');
 	}
 }
