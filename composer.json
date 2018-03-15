@@ -8,7 +8,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Neji0924\\Log\\Providers\\ServiceProvider"
+                "Neji0924\\Log\\Providers\\AppServiceProvider"
             ]
         }
     }

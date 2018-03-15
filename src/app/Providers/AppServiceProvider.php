@@ -4,7 +4,7 @@ namespace Neji0924\Log\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-Class ServiceProvider extends BaseServiceProvider
+Class AppServiceProvider extends BaseServiceProvider
 {
 	public function boot()
 	{
