@@ -4,7 +4,7 @@
 
 `composer require neji0924/log`
 
-##### 設定 (Laravel < 5.5 )
+##### 設定 (Laravel >= 5.5 可略)
 
 `config/app.php`:
 
@@ -25,7 +25,9 @@
 
 ### 使用
 
-在Model上use `Neji0924\Log\Loggable`的 trait
+##### trait
+
+use `Neji0924\Log\Loggable`
 
 ```
 <?php
@@ -42,7 +44,7 @@ class Article extends Model
 
 ```
 
-### 查看log
+##### 查看log
 
 ``` php
 $article->logs // collection

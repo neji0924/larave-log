@@ -1,5 +1,6 @@
 {
     "name": "neji0924/log",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Neji0924\\Log\\": "src/app"
